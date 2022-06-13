@@ -58,7 +58,7 @@
   <br />
   <img width="300" height="350" src="./docs/task1tests.png">
   <br />
-- Open Pull Request and notify me, I'll review it and after I approve start working on `task2`
+- Open Pull Request and notify me, I'll review it and after I approve we will merge it into `develop`, after that start working on `task2`
 
 ### Checkout to `task2`
 - For the class `Credit` write correct logic for all methods (write a bit different implementation of Equals and HashCode, for example use other prime number or instead of `if` write ternary operator)
@@ -67,16 +67,26 @@
 - To avoid compilation errors implement interface for the class `LinearSearchingAlgorithm`
 ```cs
 
-// Write this inside the class LinearSearchingAlgorithm to avoid compilation error on build
+// Write this inside the class LinearSearchingAlgorithm 
+// to avoid compilation error on build
 public uint IterationCountForLastExecution()
 {
     throw new NotImplementedException();
 }
 
 ```
-- Uncomment Asserts from the `algorithmIterationsTest` methods from the classes `LinearSearchingAlgorithmTests` and `BinarySearchingAlgorithmTests`
+- Uncomment Asserts from the `algorithmIterationsTest` methods from the test classes `LinearSearchingAlgorithmTests` and `BinarySearchingAlgorithmTests`
 - Rebuild solution and make sure that there isn't compilation errors.
 - Run all tests
   <br />
   <img width="300" height="350" src="./docs/task2tests.png">
+  <br />
+- Open Pull Request and notify me, I'll review it and after we will resolve conflicts
+  
+### Task3
+- I tell you what to do...
+
+### Final result:
+  <br />
+  <img width="300" height="350" src="./docs/taskFinaltests.png">
   <br />
