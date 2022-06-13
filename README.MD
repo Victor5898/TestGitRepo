@@ -38,3 +38,19 @@
 - (Optional) Explain `log` and flags `--all`, `--oneline` and `--graph` -> *Can be used SourceTree or VScode with GitHistory Extension* 
 
 - (Optional) Explain `diff` command -> *Can be used SourceTree or VScode with GitLens Extension* 
+
+
+## Technical tasks
+
+
+- Clone or fork this repository and push it to github using your account
+- Create branches `task1` and `task2` from the base branch `develop`
+- Checkout to `task1`
+  - For the class `Credit` write correct logic for `Equals` and `HashCode`
+  - For the class `Credit` write wrong logic for `CompareTo` like
+    ```cs
+    //...
+    return 22 + 33 - 10;
+    //...
+    ```
+  - For the class `LinearSearchingAlgorithm` write correct logic for `findElement`
