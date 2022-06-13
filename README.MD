@@ -43,14 +43,40 @@
 ## Technical tasks
 
 
-- Clone or fork this repository and push it to github using your account
+- Clone or fork this repository and publish it to github using your account, make reporitory public
 - Create branches `task1` and `task2` from the base branch `develop`
-- Checkout to `task1`
-  - For the class `Credit` write correct logic for `Equals` and `HashCode`
-  - For the class `Credit` write wrong logic for `CompareTo` like
-    ```cs
-    //...
-    return 22 + 33 - 10;
-    //...
-    ```
-  - For the class `LinearSearchingAlgorithm` write correct logic for `findElement`
+### Checkout to `task1`
+- For the class `Credit` write correct logic for `Equals` and `HashCode`
+- For the class `Credit` write wrong logic for `CompareTo` like
+  ```cs
+  //...
+  return 22 + 33 - 10;
+  //...
+  ```
+- For the class `LinearSearchingAlgorithm` write correct logic for `findElement`
+- Result of tests
+  <br />
+  <img width="300" height="350" src="./docs/task1tests.png">
+  <br />
+- Open Pull Request and notify me, I'll review it and after I approve start working on `task2`
+
+### Checkout to `task2`
+- For the class `Credit` write correct logic for all methods (write a bit different implementation of Equals and HashCode, for example use other prime number or instead of `if` write ternary operator)
+- Uncomment method `uint IterationCountForLastExecution();` from the `ISearchingAlgorithm`
+- You must implement in correct way the class `BinarySearchingAlgorithm ` you can find implementation here https://github.com/IvanPostu/GitFlowTraining/pull/1/files
+- To avoid compilation errors implement interface for the class `LinearSearchingAlgorithm`
+```cs
+
+// Write this inside the class LinearSearchingAlgorithm to avoid compilation error on build
+public uint IterationCountForLastExecution()
+{
+    throw new NotImplementedException();
+}
+
+```
+- Uncomment Asserts from the `algorithmIterationsTest` methods from the classes `LinearSearchingAlgorithmTests` and `BinarySearchingAlgorithmTests`
+- Rebuild solution and make sure that there isn't compilation errors.
+- Run all tests
+  <br />
+  <img width="300" height="350" src="./docs/task2tests.png">
+  <br />
