@@ -39,8 +39,16 @@
 
 - (Optional) Explain `diff` command -> *Can be used SourceTree or VScode with GitLens Extension* 
 
+### Use SSH and GPG keys
 
-## Technical tasks
+```bash
+$ ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
+# specify the next path ~/.ssh/<name>
+# put public key in github settings -> SSH keys
+```
+
+
+# Technical tasks
 
 
 - Clone or fork this repository and publish it to github using your account, make reporitory public
