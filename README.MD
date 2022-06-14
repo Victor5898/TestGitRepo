@@ -42,7 +42,7 @@
 ### Use SSH and GPG keys
 
 ```bash
-$ ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
 # specify the next path ~/.ssh/<name>
 # put public key in github settings -> SSH keys
 ```
