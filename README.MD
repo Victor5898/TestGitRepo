@@ -73,6 +73,8 @@ $ gpg --armor --export <uid>
 # Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----.
 # Add the GPG key to your GitHub account.
 
+$ git config --local user.signingkey 3AA5C34371567BD2
+
 # -S flag means signed commit
 $ git commit -S -m "My commit message"
 
