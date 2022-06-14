@@ -5,8 +5,6 @@
 
 - Explain about centralized model and distributed model
   
-- Explain about VCS: git, SVN(Apache Subversion)
-  
 - Commands: `add` & `commit` & `reset`
     - Tell about staged changes (what files and changes will be commited)
     - What will happen if I `add` a file in stage, modify it and `commit`)
@@ -96,7 +94,7 @@ $ gpg --delete-secret-key 5860CC8A5984E037
   //...
   ```
 - For the class `LinearSearchingAlgorithm` write correct logic for `findElement`
-- Result of tests
+- Expected results of tests
   <br />
   <img width="300" height="350" src="./docs/task1tests.png">
   <br />
@@ -119,7 +117,7 @@ public uint IterationCountForLastExecution()
 ```
 - Uncomment Asserts from the `algorithmIterationsTest` methods from the test classes `LinearSearchingAlgorithmTests` and `BinarySearchingAlgorithmTests`
 - Rebuild solution and make sure that there isn't compilation errors.
-- Run all tests
+- Expected results of tests
   <br />
   <img width="300" height="350" src="./docs/task2tests.png">
   <br />
