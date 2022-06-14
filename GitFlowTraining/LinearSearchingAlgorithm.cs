@@ -10,5 +10,9 @@ namespace GitFlowTraining
             throw new NotImplementedException();
         }
 
+        public uint IterationCountForLastExecution()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
