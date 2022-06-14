@@ -72,6 +72,7 @@ $ gpg --armor --export <uid>
 # Add the GPG key to your GitHub account.
 
 $ git config --local user.signingkey 3AA5C34371567BD2
+$ git config --local commit.gpgsign false|true
 
 # -S flag means signed commit
 $ git commit -S -m "My commit message"
