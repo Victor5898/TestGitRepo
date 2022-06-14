@@ -39,14 +39,46 @@
 
 - (Optional) Explain `diff` command -> *Can be used SourceTree or VScode with GitLens Extension* 
 
-### Use SSH and GPG keys
+### Use SSH
 
 ```bash
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 # specify the next path ~/.ssh/<name>
 # put public key in github settings -> SSH keys
+
+# To specify the key manually:
+$ vim .git/config
+# [core]
+#   sshCommand = "ssh -i ~/.ssh/<name>"
+#
 ```
 
+### Use GPG to authorize(sign) commits
+
+```bash
+#ref: https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+# rsa4096
+$ gpg --full-generate-key
+$ gpg --list-secret-keys --keyid-format=long
+/Users/hubot/.gnupg/secring.gpg
+------------------------------------
+sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
+uid                          Hubot 
+ssb   4096R/42B317FD4BA89E7A 2016-03-10
+
+$ gpg --armor --export <uid>
+# Prints the GPG key ID, in ASCII armor format
+
+# Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----.
+# Add the GPG key to your GitHub account.
+
+# -S flag means signed commit
+$ git commit -S -m "My commit message"
+
+# to delete 
+$ gpg --delete-secret-key 5860CC8A5984E037
+```
 
 # Technical tasks
 
