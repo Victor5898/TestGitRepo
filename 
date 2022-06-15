@@ -1,0 +1,119 @@
+[33mcommit 316d9a37ace6be3cbd24906d0d176c534d22072f[m[33m ([m[1;36mHEAD -> [m[1;32mtask2[m[33m, [m[1;31morigin1/task2[m[33m)[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 23:24:27 2022 -0700
+
+    Modify class Credit
+
+[33mcommit 73da3c87a171ed01c7dbd2e11537d5fd8507ef80[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 22:58:45 2022 -0700
+
+    Resolve merge conflicts
+
+[33mcommit d4124e675512f6f3a319fc405d7ee64aa8c5accd[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 22:47:34 2022 -0700
+
+    Resolve merge conflicts
+
+[33mcommit ddeb6d9b803d81a4e333a14061e98599bb6a7c2a[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 22:38:37 2022 -0700
+
+    Resolve merge conflict
+
+[33mcommit 5aab7fe2b579bb95d5cf8ef8ef1e1925d50adb42[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 22:36:58 2022 -0700
+
+    Change task2 Credit class
+
+[33mcommit 19d2fd189fab1573c0235fefa1bf36e6365e5278[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 22:28:44 2022 -0700
+
+    resolve branch conflict
+
+[33mcommit 3484a104e9f4d5bdb39b3db31061becdcef1bcf6[m
+Author: Victor5898 <victor.covrig321@gmail.com>
+Date:   Tue Jun 14 08:21:32 2022 -0700
+
+    task2
+
+[33mcommit 0e0dd762841a64b1a508640e27d66cd811239237[m[33m ([m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 10:20:28 2022 +0300
+
+    add new gpg command
+
+[33mcommit 80b058482a008779124d3fd0ffffb6941ee39c59[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 09:37:44 2022 +0300
+
+    Change readme file
+
+[33mcommit 13247a517129c8883c668d28250d55eaf58fd007[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 09:19:21 2022 +0300
+
+    Change readme
+
+[33mcommit 6bdc2ca3fe820163739127b63df9a175e20f6885[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 09:17:51 2022 +0300
+
+    message
+
+[33mcommit 037c2ae91a8c8de831a34bfbc399aa51763662bb[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 08:41:32 2022 +0300
+
+    Change ssh gen command
+
+[33mcommit bf6958b9e49da3db6de7a9f686dba825f40a3734[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 08:35:00 2022 +0300
+
+    Add roadmap for SSH config
+
+[33mcommit b8432e1c232256011dd3c5f7689dae99e18800b8[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Tue Jun 14 08:22:27 2022 +0300
+
+    Test gpg key
+
+[33mcommit 165f75671a79d617ce9aed0b179b7b144ded5f00[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 21:13:40 2022 +0300
+
+    Change readme & add image
+
+[33mcommit d7bbb481702db9e09e8f0de4e822a389e8f08198[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 21:10:47 2022 +0300
+
+    Change readme
+
+[33mcommit b4a5f639127a6e361a9111a124c198bbf7074bac[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 20:44:12 2022 +0300
+
+    Specify first task
+
+[33mcommit 21ffd42b7be7a62863eafb94d424bb3c541bdde4[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 20:24:57 2022 +0300
+
+    Prepare task
+
+[33mcommit 45efa472c7013953f580e45738582f4d9a347d24[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 18:40:46 2022 +0300
+
+    Specify a big part of objectives in README file
+
+[33mcommit 9ff715920c6778a556b3d7b35b36cf8051c16444[m
+Author: IvanPostu <ipostu20000127@gmail.com>
+Date:   Mon Jun 13 17:22:15 2022 +0300
+
+    Init project
