@@ -57,7 +57,7 @@ namespace GitFlowTraining.Tests
             Credit expectedElement = new Credit(1001);
             searchingAlgorithm.findElement(credits, expectedElement);
 
-            //Assert.AreEqual((uint)5, searchingAlgorithm.IterationCountForLastExecution());
+            Assert.AreEqual((uint)5, searchingAlgorithm.IterationCountForLastExecution());
         }
     }
 }
