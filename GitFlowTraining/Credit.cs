@@ -22,7 +22,7 @@ namespace GitFlowTraining
                 {
                     return -1;
                 }
-                else if(c.Amount < Amount)
+                else if (c.Amount < Amount)
                 {
                     return 1;
                 }
@@ -39,25 +39,14 @@ namespace GitFlowTraining
 
         public override bool Equals(object obj)
         {
-            if(obj != null)
-            {
-                if(obj.GetType() == typeof(Credit))
-                {
 
+            if (obj != null)
+            {
+                if (obj.GetType() == typeof(Credit))
+                {
                     Credit credit = (Credit)obj;
 
                     return (credit.Amount == Amount) ? true : false;
-
-                    Credit creditObj = obj as Credit;
-
-                    if (this.Amount == creditObj.Amount)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
                 }
             }
 
