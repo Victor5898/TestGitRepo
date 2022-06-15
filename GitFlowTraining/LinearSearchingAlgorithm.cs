@@ -9,6 +9,8 @@ namespace GitFlowTraining
 
         public T findElement<T>(T[] arr, T element) where T : IComparable<T>
         {
+            counter = 0;
+
             foreach (var arrElement in arr)
             {
                 counter++;
