@@ -16,7 +16,6 @@ namespace GitFlowTraining
 
         public int CompareTo(Credit c)
         {
-<<<<<<< HEAD
             if (c != null)
             {
                 if (c.Amount > Amount)
@@ -36,26 +35,22 @@ namespace GitFlowTraining
             {
                 throw new ArgumentException();
             }
-=======
+
             return 0;
->>>>>>> develop
         }
 
         public override bool Equals(object obj)
         {
-<<<<<<< HEAD
-=======
 
->>>>>>> develop
             if(obj != null)
             {
                 if(obj.GetType() == typeof(Credit))
                 {
-<<<<<<< HEAD
+
                     Credit credit = (Credit)obj;
 
                     return (credit.Amount == Amount) ? true : false;
-=======
+
                     Credit creditObj = obj as Credit;
 
                     if (this.Amount == creditObj.Amount)
@@ -66,7 +61,6 @@ namespace GitFlowTraining
                     {
                         return false;
                     }
->>>>>>> develop
                 }
             }
 
@@ -75,11 +69,10 @@ namespace GitFlowTraining
 
         public override int GetHashCode()
         {
-<<<<<<< HEAD
+
             return 1024 * Amount.GetHashCode();
-=======
+
             return Amount.GetHashCode();
->>>>>>> develop
         }
 
     }
